@@ -1,3 +1,5 @@
 export default function Profile() {
-  return <img src="https://i.imgur.com/MK3eW3Am.jpg" alt="Katherine Johnson" />;
+  const avatar = "https://i.imgur.com/7vQD0fPs.jpg";
+  const description = "Gregorio Y. Zara";
+  return <img src={avatar} alt={description} />;
 }
